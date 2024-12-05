@@ -14,8 +14,7 @@ header {
 
 header img {
     width: 150px;
-    display: block;
-    margin: 0 auto 10px;
+    margin: 0 auto;
 }
 
 nav a {
@@ -34,12 +33,26 @@ main {
     text-align: center;
 }
 
-footer {
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
     background-color: #E3001B;
     color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
+
+table img {
+    width: 100px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #
