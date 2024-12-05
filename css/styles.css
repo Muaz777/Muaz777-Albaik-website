@@ -14,7 +14,6 @@ header {
 
 header img {
     width: 150px;
-    margin: 0 auto;
 }
 
 nav a {
@@ -33,5 +32,35 @@ main {
     text-align: center;
 }
 
+.menu-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.menu-table th, .menu-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.menu-table img {
+    width: 100px;
+    border-radius: 5px;
+}
+
 footer {
     background-color: #E3001B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .icon {
+    width: 25px;
+}
+
+.dish img, .detail-image {
+    width: 150px;
+    border-radius: 8px;
+}
